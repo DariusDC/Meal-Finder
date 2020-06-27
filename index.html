@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Meal DB</title>
+</head>
+<body>
+    <header>
+        <h1>Meal Finder</h1>
+        <div class="search-section">
+            <form id="form" class="form">
+                <input type="text" class="search-bar" id="search-bar" placeholder="Search for a meal...">
+                <button class="search-btn" id="search-btn"  type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <button class="random-btn" id="random-btn">
+                <i class="fas fa-random"></i>
+             </button>
+        </div>
+    </header>
+    <div class="search-results" id="search-results">
+        <h2 id="result"></h2>
+        <div class="images" id="images">
+            </div>
+        </div>
+    </div>
+    <div class="recipe" id="recipe">
+    </div>
+</body>
+</html>
